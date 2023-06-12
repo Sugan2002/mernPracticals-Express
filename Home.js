@@ -5,3 +5,4 @@ router.get('/', (request,response) => {
     response.send("Home Page")
 })
 
+module.exports = router

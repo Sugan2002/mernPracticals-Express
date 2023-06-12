@@ -4,10 +4,10 @@ const Home = require('./Home')
 const About = require('./About')
 const Branch = require('./Branch')
 const Contact = require('./Contact')
-const Services = require('./Sevices')
+const Services = require('./Services')
 
-app.get('/', (request,response) => {
-    response.send("We are having 6 routes")
+app.get('/home', (request,response) => {
+    response.send("COMMERCIAL WEBSITE")
 
 })
 
@@ -19,4 +19,4 @@ app.use('/Services', Services)
 
 
 
-app.listen(3500)
+app.listen(5500)
